@@ -8,6 +8,8 @@ import tflib.plot
 
 from GANgogh import *
 
+from tflib.wikiartGenre import get_style
+
 DEVICES = ['/gpu:{}'.format(i) for i in range(N_GPUS)]
 
 ITERS = 2000 #200000  # How many iterations to train for
